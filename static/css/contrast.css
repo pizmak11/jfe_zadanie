@@ -1,0 +1,15 @@
+.contrast {
+    filter: invert(1);
+    background-color: #111111;
+}
+
+.contrast img {
+    filter: invert(1);
+}
+
+.contrast__img {
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}

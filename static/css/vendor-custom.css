@@ -1,0 +1,22 @@
+:root {
+    --primary: #000000;
+    --secondary: #FFFFFF;
+    --third: #EDEEF2;
+    --fourth: #5F5F5F;
+  }
+
+.wrapper__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__js-logo {
+    width: 54px;
+    height: 54px;
+    display: inline-block;
+    background-image: url("../imgs/js-logo.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -5px;
+}
