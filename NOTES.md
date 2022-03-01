@@ -1,14 +1,9 @@
-1. Do struktury dodałem:
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-dla lepszego skalowania treści dla urządzeń mobilnych. Skrypty podzieliłem na mniejsze części dla wiekszej przejrzystości. Również utworzyłem foldery "js", "css" oraz "imgs" i tam dodałem odpowiednie pliki.
-Dodałem również przycisk regulujący kontrast:
-    <button class="button button--contrast" onclick="contrast()">
-        <img class="contrast__img" src="imgs/dark.svg" alt="Change contrast">
-    </button>
+1. Do struktury dodałem: meta name="viewport" content="width=device-width, initial-scale=1", dla lepszego skalowania treści dla urządzeń mobilnych. Skrypty podzieliłem na mniejsze części dla wiekszej przejrzystości. Również utworzyłem foldery "js", "css" oraz "imgs" i tam dodałem odpowiednie pliki.
+Dodałem również przycisk regulujący kontrast.
 
 2. Do headingu dodałem jedynie powyższy przycisk. Komponent z listą kanałów i ich modyfikacjami znajduje się w pliku "js/channels.js".
 
-3.
+3. Lista zadań:
 a. Dodałem sortowanie rosnąco i malejąco i oddzielono je od typu sortowania. Typ i kierunek sortowania współgra ze sobą - można go mieszać.
 b. Filtrowanie wyników odbywa sie dynamicznie. Po wpisaniu znaku tytuły z listy kanałów są porównywane z inputem, widoczne kanały są czyszczone i wyrzucana jest nowa lista. Dodatkowe jeśli lista jest pusta wyskoczy komunikat informujący o braku rezultatów wyszukiwania.
 c. Clear czyści input z filtrowanym tekstem. Niestety z niezannego mi powodu kolejność w zmiennej zawierającej domyślną listę "channelsDefault" zapamiętuje ostatnią kolejność elementów. Co za tym idzie przycisk nie sortuje ponownie kanałów, a jedynie filtrowanie tekstem.
