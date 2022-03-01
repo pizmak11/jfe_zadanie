@@ -4,10 +4,15 @@ Dodałem również przycisk regulujący kontrast.
 2. Do headingu dodałem jedynie powyższy przycisk. Komponent z listą kanałów i ich modyfikacjami znajduje się w pliku "js/channels.js".
 
 3. Lista zadań:
+
 a. Dodałem sortowanie rosnąco i malejąco i oddzielono je od typu sortowania. Typ i kierunek sortowania współgra ze sobą - można go mieszać.
+
 b. Filtrowanie wyników odbywa sie dynamicznie. Po wpisaniu znaku tytuły z listy kanałów są porównywane z inputem, widoczne kanały są czyszczone i wyrzucana jest nowa lista. Dodatkowe jeśli lista jest pusta wyskoczy komunikat informujący o braku rezultatów wyszukiwania.
-c. Clear czyści input z filtrowanym tekstem. Niestety z niezannego mi powodu kolejność w zmiennej zawierającej domyślną listę "channelsDefault" zapamiętuje ostatnią kolejność elementów. Co za tym idzie przycisk nie sortuje ponownie kanałów, a jedynie filtrowanie tekstem.
+
+c. Clear czyści input z filtrowanym tekstem. Niestety z niezannego mi powodu kolejność w zmiennej zawierającej domyślną listę "channelsDefault" zapamiętuje ostatnią kolejność elementów. Co za tym idzie przycisk nie sortuje ponownie kanałów, a jedynie filtrowanie tekstem. Nie zdążyłem znaleźć odpowiedniego rozwiązania dla tej sytuacji.
+
 d. Kafelek jest buttonem, któremu przypsałem funkcję "window.open()". Dzięki temu do linku możliwe było dodanie aktualnego timestampa i otwarcie go w nowej karcie.
+
 e. Do dodania przecinków użyłem RegEx.
 
 4. Stronę przetestowałem na Google Chrome, OperaGX oraz Microsoft Edge. Kod nie jest zgodny z przeglądarką Internet Explorer - nie jestem masochistą by pod nią optymalizować ;).
