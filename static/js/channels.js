@@ -2,11 +2,6 @@ import * as channelsList from '../channels.json' assert { type: "json" };
 const channelsDefault = channelsList.default
 var channels = channelsList.default
 
-setInterval(()=> {
-    console.log(channelsList.default[0].title, "|", channelsDefault[0].title, "|", channels[0].title)
-}, 1000)
-
-
 //create initial channels list from default
 document.getElementById("main-channels").innerHTML = ""
 channelsDefault.forEach(function (item, index) {
